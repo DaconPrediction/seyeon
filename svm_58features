@@ -154,7 +154,7 @@ mx <- t(mx)
 # xm <- read.csv("just.csv",header=TRUE)
 for (i in 1:38) {
   for (j in 1:21) {
-    xm[3*i-2,j+1] <- mx[i,j] #mx(각각 1,2,4주 넣은 거)를 3*i뒤에 -2,-1,0 넣으면서 넣음..^^
+    xm[3*i,j+1] <- mx[i,j] #mx(각각 1,2,4주 넣은 거)를 3*i뒤에 -2,-1,0 넣으면서 넣음..^^
   }
 }
 
